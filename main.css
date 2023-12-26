@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 640px;
+    width: 100%;
+    margin: 80px auto;
+}
+
+form{
+    margin-top: 12px;
+}
+
+input, button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.container h1 {
+    margin-left: 100px;
+
+}
+
+button {
+    background-color: rgb(94, 165, 165);
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+}
+
+#final-menssagem {
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(94, 165, 165);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 60px;
+    display: none;
+}
